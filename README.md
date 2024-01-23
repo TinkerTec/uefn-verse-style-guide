@@ -12,6 +12,7 @@ So by keeping the CamelCase standard we avoid a lot of confusion with what is al
 
 
 Examples:
+
 **Right**
 ```c++
 PlayerSpawnerDevice : player_spawner_device = player_spawner_device{}
@@ -47,6 +48,7 @@ Let's establish that the standard language for coding our devices is Internation
 You will be able to work for everyone using English as code base language.
 
 Examples:
+
 **Right**
 ```c++
 PlayerSpawnerDevice : player_spawner_device = player_spawner_device{}
@@ -79,6 +81,7 @@ AoJogadorEntrar(Agente:agent):void=
 Spacing must be added to separate operators and symbols in order to have better visibility of the code inside. The Verse in Visual Studio Code inserts templates without proper spacing, however it's important to change them so when we "take a look", we can quickly understand the elements that are part of the syntax.
 
 Examples:
+
 **Right**
 ```c++
 PlayerSpawnerDevice : player_spawner_device = player_spawner_device{}
@@ -120,6 +123,7 @@ See that in the example below the name PlayerSpawnerDevice was used for the play
 We can also adopt this practice for other visual elements of the editor such as Props (PropMachineLevel1, PropMachineLevel2, PropHeroStatue, PropVillainStatue and so on).
 
 Examples:
+
 **Right**
 ```c++
 @editable
